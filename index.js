@@ -1,7 +1,7 @@
 //document.querySelector("h1").innerHTML = "Hello World"
 
 function getRandomDice(){
-    var randomNumber = Math.floor(Math.random() * 6+1);  
+    var randomNumber = Math.floor(Math.random() * 6) +1;  
     //document.querySelector("h1").innerHTML = imageName;
     return randomNumber;
 }
